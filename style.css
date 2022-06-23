@@ -1,2 +1,33 @@
+/* FONT FAMILY:  
+Changa
+*/
+
+/* FONT SIZES 
+
+*/
+
+/* FONT WEIGHT: 
+400
+600
+800
+*/
+
 html {
+  font-size: 62.5%;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Changa", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+  overflow-x: hidden;
 }
