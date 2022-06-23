@@ -12,6 +12,15 @@ Changa
 800
 */
 
+/* 
+COLORS:
+lightBlue: #74c0fc
+*/
+
+/* ///////////// */
+/* ///////////// */
+
+/* GLOBAL CONFIG */
 html {
   font-size: 62.5%;
 }
@@ -30,4 +39,26 @@ body {
   font-weight: 400;
   color: #555;
   overflow-x: hidden;
+}
+
+/* ///////////// */
+/* ///////////// */
+
+/* COMPONENTS */
+
+#navbar {
+  padding: 3.5rem;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #74c0fc;
+}
+
+.navbar__container {
+}
+
+.navbar__logo {
+  height: 4rem;
+  width: 20rem;
 }
