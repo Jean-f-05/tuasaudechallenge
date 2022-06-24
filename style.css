@@ -15,6 +15,7 @@ Changa
 /* 
 COLORS:
 lightBlue: #74c0fc
+mainBlue: #3CB3DD
 */
 
 /* ///////////// */
@@ -85,9 +86,9 @@ body {
 
 .test__container {
   display: inline-block;
-  border: 1px solid #075985;
-  border-radius: 0.6rem;
-  padding: 1.4rem;
+  border: 1px solid #7dd3fc;
+  border-radius: 0.1rem;
+  padding: 3rem;
   box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.24);
   background: linear-gradient(
     27deg,
@@ -101,12 +102,15 @@ body {
 }
 
 .test__header-head {
-  font-size: 5rem;
+  font-size: 4rem;
   color: #7dd3fc;
+  margin-bottom: 1rem;
 }
 
 .test__header-parag {
-  font-size: 2rem;
+  font-size: 1.5rem;
+  color: #3c454c;
+  width: 100%;
 }
 
 .test__body_lists {
@@ -122,7 +126,7 @@ body {
 }
 
 .inputGroup label {
-  padding: 12px 30px;
+  padding: 1.2rem 3rem;
   width: 100%;
   display: block;
   text-align: left;
@@ -139,7 +143,7 @@ body {
   height: 10px;
   border-radius: 50%;
   content: "";
-  background-color: #0284c7;
+  background-color: #3cb3dd;
   position: absolute;
   left: 50%;
   top: 50%;
@@ -216,6 +220,6 @@ input {
 }
 
 .btn:active {
-  background-color: #0284c7;
-  border-color: #0284c7;
+  background-color: #3cb3dd;
+  border-color: #3cb3dd;
 }
