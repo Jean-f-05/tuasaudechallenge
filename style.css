@@ -37,8 +37,23 @@ body {
   font-family: "Changa", sans-serif;
   line-height: 1;
   font-weight: 400;
+  background-color: #f1f9ff;
   color: #555;
   overflow-x: hidden;
+}
+
+/* ///////////// */
+/* ///////////// */
+
+/* GLOBAL CLASSES */
+
+.container {
+  max-width: 60rem;
+  margin: 0 auto;
+}
+
+.mb-med {
+  margin-top: 5rem;
 }
 
 /* ///////////// */
@@ -47,6 +62,7 @@ body {
 /* COMPONENTS */
 
 #navbar {
+  background-color: #fff;
   border-bottom: 1px solid #74c0fc;
   padding: 1rem;
 }
@@ -64,4 +80,31 @@ body {
 
 #main {
   height: calc(100vh - 6.1rem);
+  background-color: #f1f9ff;
+}
+
+.test__container {
+  display: inline-block;
+  border: 1px solid #075985;
+  border-radius: 0.6rem;
+  padding: 1.4rem;
+  box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.24);
+  background: linear-gradient(
+    27deg,
+    rgba(240, 249, 255, 1) 25%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+
+.test__header {
+  margin-bottom: 2rem;
+}
+
+.test__header-head {
+  font-size: 4rem;
+  color: #7dd3fc;
+}
+
+.test__header-parag {
+  font-size: 2.4rem;
 }
