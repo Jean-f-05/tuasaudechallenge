@@ -43,6 +43,11 @@ body {
   overflow-x: hidden;
 }
 
+li div a {
+  text-decoration: none;
+  color: inherit;
+}
+
 /* ///////////// */
 /* ///////////// */
 
@@ -84,7 +89,7 @@ body {
   background-color: #f1f9ff;
 }
 
-.test__container {
+.ts__container {
   display: inline-block;
   border: 1px solid #7dd3fc;
   border-radius: 0.1rem;
@@ -95,22 +100,24 @@ body {
     rgba(240, 249, 255, 1) 25%,
     rgba(255, 255, 255, 1) 100%
   );
+  width: 60rem;
 }
 
-.test__header {
+.ts__header {
   margin-bottom: 2rem;
 }
 
-.test__header-head {
+.ts__header-head {
   font-size: 4rem;
   color: #7dd3fc;
   margin-bottom: 1rem;
 }
 
-.test__header-parag {
+.ts__header-parag {
   font-size: 1.5rem;
   color: #3c454c;
   width: 100%;
+  line-height: 1.2;
 }
 
 .test__body_lists {
@@ -222,4 +229,22 @@ input {
 .btn:active {
   background-color: #3cb3dd;
   border-color: #3cb3dd;
+}
+
+/* RESULTS */
+.ts__body-head {
+  font-size: 4rem;
+  color: orange;
+  margin-bottom: 1rem;
+}
+
+.results__list-img {
+  height: 10rem;
+  width: 18rem;
+}
+
+.results__list_el {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
