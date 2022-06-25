@@ -58,8 +58,11 @@ li div a {
   margin: 0 auto;
 }
 
-.mb-med {
+.mt-med {
   margin-top: 5rem;
+}
+.mb-med {
+  margin-bottom: 5rem;
 }
 
 /* ///////////// */
@@ -110,7 +113,7 @@ li div a {
 .ts__header-head {
   font-size: 4rem;
   color: #7dd3fc;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .ts__header-parag {
@@ -238,13 +241,24 @@ input {
   margin-bottom: 1rem;
 }
 
+.results__lists {
+  display: flex;
+  flex-direction: column;
+  gap: 3.8rem;
+}
+
 .results__list-img {
   height: 10rem;
   width: 18rem;
+  transform: scale(1.4);
+  border-radius: 5px;
 }
 
 .results__list_el {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  background-color: #fff;
+  padding: 1rem;
+  gap: 0.5rem;
 }
