@@ -11,23 +11,27 @@ function handleSubmit(e) {
   const formData = new FormData(e.target);
   const formProps = Object.fromEntries(formData);
 
+  const scrollOptions = { behavior: "smooth", block: "end" };
+
   if (isEmpty(formProps)) {
     console.log("NOTHING");
     main.insertAdjacentHTML("beforeend", light);
+    main.scrollIntoView(scrollOptions);
   } else {
     switch (true) {
       case Object.keys(formProps).length <= 3:
         console.log("SOME");
         main.insertAdjacentHTML("beforeend", moderate);
+        main.scrollIntoView(scrollOptions);
         break;
       case Object.keys(formProps).length > 3:
         console.log("HIGH");
         main.insertAdjacentHTML("beforeend", serious);
+        main.scrollIntoView(scrollOptions);
         break;
     }
 
     console.log(formProps);
-    console.log(light);
   }
 }
 
