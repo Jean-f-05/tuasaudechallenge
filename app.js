@@ -1,6 +1,8 @@
 import { light, moderate, serious } from "./markups/markups.js";
 const form = document.querySelector("form");
 const main = document.querySelector("#main");
+const results = document.querySelector("#results");
+const scrollOptions = { behavior: "smooth", block: "start" };
 
 function isEmpty(obj) {
   return Object.keys(obj).length === 0;
@@ -11,23 +13,21 @@ function handleSubmit(e) {
   const formData = new FormData(e.target);
   const formProps = Object.fromEntries(formData);
 
-  const scrollOptions = { behavior: "smooth", block: "end" };
-
   if (isEmpty(formProps)) {
     console.log("NOTHING");
-    main.insertAdjacentHTML("beforeend", light);
-    main.scrollIntoView(scrollOptions);
+    results.insertAdjacentHTML("beforeend", light);
+    results.scrollIntoView(scrollOptions);
   } else {
     switch (true) {
       case Object.keys(formProps).length <= 3:
         console.log("SOME");
-        main.insertAdjacentHTML("beforeend", moderate);
-        main.scrollIntoView(scrollOptions);
+        results.insertAdjacentHTML("beforeend", moderate);
+        results.scrollIntoView(scrollOptions);
         break;
       case Object.keys(formProps).length > 3:
         console.log("HIGH");
-        main.insertAdjacentHTML("beforeend", serious);
-        main.scrollIntoView(scrollOptions);
+        results.insertAdjacentHTML("beforeend", serious);
+        results.scrollIntoView(scrollOptions);
         break;
     }
 
