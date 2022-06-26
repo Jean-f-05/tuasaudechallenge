@@ -296,3 +296,8 @@ input {
   font-weight: 600;
   color: #7dd3fc;
 }
+
+.results__list_header {
+  color: #7dd3fc;
+  width: 35%;
+}
