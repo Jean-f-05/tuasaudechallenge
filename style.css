@@ -16,6 +16,7 @@ Changa
 COLORS:
 lightBlue: #74c0fc
 mainBlue: #3CB3DD
+mainTextBlue:#7dd3fc;
 */
 
 /* ///////////// */
@@ -235,9 +236,21 @@ input {
 }
 
 /* RESULTS */
+
+.danger {
+  color: red;
+}
+
+.warning {
+  color: orange;
+}
+
+.peace {
+  color: green;
+}
+
 .ts__body-head {
   font-size: 4rem;
-  color: orange;
   margin-bottom: 1rem;
 }
 
@@ -261,4 +274,19 @@ input {
   background-color: #fff;
   padding: 1rem;
   gap: 0.5rem;
+}
+
+.results__list_vid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #fff;
+  padding: 1rem;
+  gap: 1.5rem;
+}
+
+.ts__header-parag span {
+  font-weight: 600;
+  color: #7dd3fc;
 }
