@@ -10,9 +10,16 @@ function handleSubmit(e) {
   const formProps = Object.fromEntries(formData);
 
   if (isEmpty(formProps)) {
-    console.log("EMPTY FORM");
+    console.log("NOTHING");
   } else {
-    // console.log("PLEASE CONTINUE");
+    switch (true) {
+      case Object.keys(formProps).length <= 3:
+        console.log("SOME");
+        break;
+      case Object.keys(formProps).length > 3:
+        console.log("HIGH");
+        break;
+    }
 
     console.log(formProps);
   }
