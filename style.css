@@ -51,7 +51,6 @@ body {
   font-weight: 400;
   background-color: #f1f9ff;
   color: #555;
-  overflow-x: hidden;
 }
 
 li div a {
@@ -353,17 +352,26 @@ iframe {
     transform: scale(1);
   }
   .ts__container {
-    padding: 0;
+    padding: 1rem;
   }
 
   .icon {
     top: 0;
     right: 0;
   }
+  .inputGroup label:after {
+    display: none;
+  }
+  .results__lists {
+    max-width: 100%;
+  }
 }
 
 /* BREAK POINT - 400PX */
 @media (max-width: 25em) {
+  html {
+    font-size: 50%;
+  }
   .results__list_el {
     flex-direction: column;
   }
@@ -376,5 +384,16 @@ iframe {
 
   .results__lists {
     gap: 1rem;
+  }
+  .ts__header {
+    text-align: center;
+  }
+  iframe {
+    width: 30rem;
+    height: 20rem;
+  }
+
+  .icon {
+    display: none;
   }
 }
