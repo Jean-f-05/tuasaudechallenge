@@ -84,23 +84,18 @@ const moderate = ` <div id="result" class="container mt-med">
   </div>
   <div class="ts__body">
     <ul class="test__body_lists results__lists">
-      <li class="results__list">
-        <div class="results__list_el">
-          <img
-            src="./imgs/tired1.jpg"
-            alt="tired person"
-            class="results__list-img"
-          />
-          <a
-            href="https://www.tuasaude.com/sintomas-da-falta-de-vitamina-b12/"
-            class="results__list-a"
-            target="_blank"
-            >Falta de vitamina B12:<br />
-            sintomas, causas e<br />
-            tratamento</a
-          >
-        </div>
-      </li>
+    <li class="results__list">
+  <div class="results__list_el">
+    <img src="./imgs/tired1.jpg" alt="tired person" class="results__list-img" />
+    <a
+      href="https://www.tuasaude.com/sintomas-da-falta-de-vitamina-b12/"
+      class="results__list-a"
+      target="_blank"
+      >Falta de vitamina B12: <br>sintomas, causas</a
+    >
+  </div>
+</li>
+
       <li class="results__list">
         <div class="results__list_el">
           <a
@@ -111,7 +106,7 @@ const moderate = ` <div id="result" class="container mt-med">
           >
           <img
             src="./imgs/heart.jpg"
-            alt="tired person"
+            alt="heart image"
             class="results__list-img"
           />
         </div>
@@ -120,7 +115,7 @@ const moderate = ` <div id="result" class="container mt-med">
         <div class="results__list_el">
           <img
             src="./imgs/cells.jpg"
-            alt="tired person"
+            alt="red cells image"
             class="results__list-img"
           />
           <a
