@@ -100,6 +100,7 @@ li div a {
 }
 
 .ts__container {
+  position: relative;
   display: inline-block;
   border: 1px solid #7dd3fc;
   border-radius: 0.1rem;
@@ -306,4 +307,14 @@ input {
   font-weight: 600;
   color: #7dd3fc;
   text-decoration: underline;
+}
+
+.icon {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  height: 4rem;
+  width: 4rem;
+  stroke: #fff;
+  background-color: #7dd3fc;
 }
