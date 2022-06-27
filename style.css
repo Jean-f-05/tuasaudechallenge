@@ -302,8 +302,8 @@ input {
   width: 35%;
 }
 
-.btn[disabled] {
-  cursor: not-allowed;
-  background-color: #bae6fd;
-  color: #fff;
+.info {
+  font-weight: 600;
+  color: #7dd3fc;
+  text-decoration: underline;
 }

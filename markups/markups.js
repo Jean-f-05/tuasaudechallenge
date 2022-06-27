@@ -50,6 +50,14 @@ const light = `<div id="result" class="container mt-med light">
           </p>
         </div>
       </li>
+      <li class="results__list">
+        <div class="results__list_el">
+          <h4 class="results__list_header">Mains informações</h4>
+          <p class="ts__header-parag">
+          <a href="https://www.tuasaude.com/remedios-para-bronquite/" target="_blank"><span class="info">Saiba mais sobre o tratamento da bronquite.</span></a>
+          </p>
+        </div>
+      </li>
     </ul>
   </div>
 </div>
