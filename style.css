@@ -16,13 +16,17 @@ Changa
 
 /* 
 COLORS:
+bgColor:#f1f9ff;
 lightBlue: #74c0fc
 mainBlue: #3CB3DD
 mainTextBlue:#7dd3fc;
+lightGreen:#54e0c7
+*/
+
+/*  
 danger: #ef4444;
 warning: #f97316;
 peace: #22c55e;
-
 */
 
 /* ///////////// */
@@ -52,7 +56,9 @@ body {
 
 li div a {
   text-decoration: none;
-  color: inherit;
+  font-weight: 400;
+  color: #7dd3fc;
+  text-decoration: underline;
 }
 
 /* ///////////// */
