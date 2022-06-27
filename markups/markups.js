@@ -1,4 +1,4 @@
-const light = `<div class="container mt-med light">
+const light = `<div id="result" class="container mt-med light">
 <div class="ts__container mb-med">
   <div class="ts__header">
     <h2 class="ts__header-head">
@@ -55,7 +55,7 @@ const light = `<div class="container mt-med light">
 </div>
 </div>`;
 
-const moderate = ` <div class="container mt-med">
+const moderate = ` <div id="result" class="container mt-med">
 <div class="ts__container mb-med">
   <div class="ts__header">
     <h2 class="ts__header-head">
@@ -123,7 +123,7 @@ const moderate = ` <div class="container mt-med">
 </div>
 </div>`;
 
-const serious = `<div class="container mt-med">
+const serious = `<div id="result" class="container mt-med">
 <div class="ts__container mb-med">
   <div class="ts__header">
     <h2 class="ts__header-head">

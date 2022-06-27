@@ -301,3 +301,9 @@ input {
   color: #7dd3fc;
   width: 35%;
 }
+
+.btn[disabled] {
+  cursor: not-allowed;
+  background-color: #bae6fd;
+  color: #fff;
+}
