@@ -162,7 +162,7 @@ const serious = `<div id="result" class="container mt-med">
         <div class="results__list_vid">
           <span>"5 EXERCÍCIOS PARA FORTALECER O PULMÃO"</span>
 
-          <iframe width="500" height="319" src="https://www.youtube.com/embed/CEfBBZoJ9Rg" title="5 EXERCÍCIOS PARA FORTALECER O PULMÃO | com @Mirca Fisioterapia e Bem-estar" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe src="https://www.youtube.com/embed/CEfBBZoJ9Rg" title="5 EXERCÍCIOS PARA FORTALECER O PULMÃO | com @Mirca Fisioterapia e Bem-estar" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
       </li>
       <li class="results__list">
@@ -171,8 +171,6 @@ const serious = `<div id="result" class="container mt-med">
             >"7 alimentos antiinflamatórios que você precisa usar"</span
           >
           <iframe
-            width="500"
-            height="315"
             src="https://www.youtube.com/embed/UvYIkVNT1-A"
             title="7 alimentos antiinflamatórios que você precisa usar"
             frameborder="0"

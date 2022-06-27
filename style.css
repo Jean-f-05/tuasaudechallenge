@@ -117,7 +117,7 @@ li div a {
     rgba(240, 249, 255, 1) 25%,
     rgba(255, 255, 255, 1) 100%
   );
-  width: 60rem;
+  max-width: 60rem;
 }
 
 .ts__header {
@@ -151,7 +151,6 @@ li div a {
 
 .inputGroup label {
   padding: 1.2rem 3rem;
-  width: 100%;
   display: block;
   text-align: left;
   color: #3c454c;
@@ -323,4 +322,59 @@ input {
   width: 4rem;
   stroke: #fff;
   background-color: #7dd3fc;
+}
+
+iframe {
+  width: 50rem;
+  height: 32rem;
+}
+
+/*  */
+/* MEDIA QUERIES */
+/*  */
+
+/* BREAK POINT - 650PX */
+@media (max-width: 40.7em) {
+  html {
+    font-size: 56.2%;
+  }
+
+  iframe {
+    width: 40rem;
+    height: 25rem;
+  }
+}
+
+/* BREAK POINT - 550PX */
+@media (max-width: 34.3em) {
+  .results__list-img {
+    height: 10rem;
+    width: 18rem;
+    transform: scale(1);
+  }
+  .ts__container {
+    padding: 0;
+  }
+
+  .icon {
+    top: 0;
+    right: 0;
+  }
+}
+
+/* BREAK POINT - 400PX */
+@media (max-width: 25em) {
+  .results__list_el {
+    flex-direction: column;
+  }
+  .results__list-img {
+    display: none;
+  }
+  .results__list_header {
+    width: 100%;
+  }
+
+  .results__lists {
+    gap: 1rem;
+  }
 }
